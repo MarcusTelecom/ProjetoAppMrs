@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjetoAppMrs</string>
+    <string name="hint_email">Seu email</string>
+    <string name="hint_senha">Sua senha</string>
 </resources>
