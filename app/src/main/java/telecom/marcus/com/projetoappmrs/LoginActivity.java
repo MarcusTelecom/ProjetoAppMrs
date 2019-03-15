@@ -7,7 +7,7 @@ import android.support.v7.widget.AppCompatEditText;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     //Recuperando os componentes do activity_main
     private AppCompatEditText editTextEmail;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         editTextEmail = (AppCompatEditText) findViewById(R.id.id_et_email);
         textInputLayoutEmail = (TextInputLayout) findViewById(R.id.id_txtlayout_email);
