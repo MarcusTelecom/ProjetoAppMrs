@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -30,14 +31,18 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/layout_marginLeft"
         android:layout_marginTop="@dimen/layout_marginTop"
-        android:layout_marginRight="@dimen/layout_marginRight">
+        android:layout_marginRight="@dimen/layout_marginRight"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:passwordToggleEnabled="true">
 
         <android.support.v7.widget.AppCompatEditText
             android:id="@+id/id_et_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/hint_senha"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:maxLength="8"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button
