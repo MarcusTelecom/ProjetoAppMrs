@@ -40,5 +40,14 @@
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
 
+    <Button
+        android:id="@+id/id_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:text="@string/bt_login"/>
+
 
 </LinearLayout>
